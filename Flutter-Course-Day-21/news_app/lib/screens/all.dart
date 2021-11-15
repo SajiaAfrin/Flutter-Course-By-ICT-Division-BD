@@ -11,7 +11,7 @@ class AllScreen extends StatefulWidget {
 }
 
 class _AllScreenState extends State<AllScreen> {
-  final String url = 'https://newsapi.org/v2/everything?q=tesla&from=2021-10-15&sortBy=publishedAt&apiKey=4159422918ad47e1bca6d72a504c5da6';
+  final String url = 'https://newsapi.org/v2/everything?q=tesla&from=2021-10-15&sortBy=publishedAt&apiKey=2f00c1f28f274a6696863ee658c591c3';
   List allNewsData = [];
   Future getAllNews()async{
    final response = await http.get(Uri.parse(url));
